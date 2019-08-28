@@ -1,6 +1,6 @@
 {
-  "apply-on-trial": {
-    "data": {
+  "apply-on-trial": [
+    { "id": "data", "title": {
       "rows": [
         {
           "id": "TradeCode1",
@@ -225,8 +225,10 @@
         }
       ],
       "count": 13
-    }
-  },
+    } },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
